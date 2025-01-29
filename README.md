@@ -95,5 +95,6 @@ The Hospital Receptionist Management System provides a comprehensive solution fo
 
 ### ER Diagram:-
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5f72acab-1329-4865-90c3-8eda1a48f1c1)
+
 
