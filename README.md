@@ -93,5 +93,7 @@ The Hospital Receptionist Management System provides a comprehensive solution fo
    - Open a web browser.
    - Navigate to `http://localhost/Hospital_Receptionist_Management_System/form.php`.
 
-This README provides a structured overview of the Hospital Receptionist Management System, including its features, database structure, and setup instructions for local deployment.
+### ER Diagram:-
+
+![Uploading image.png…]()
 
