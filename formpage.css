@@ -1,0 +1,298 @@
+
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container{
+      
+        clear:both;
+        overflow:auto;
+        background-color:rgb(221, 205, 205,0.7);
+       
+      }
+      
+      nav{float:right;}
+      
+      .logo img{float:left;}
+      body {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        background-image: url(images/indexbg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+      ul li{
+        display: inline-block; 
+        padding:15px;
+        align-items: center;
+        font-size:20px; font-family:raleway;
+        
+      }
+      li a{
+          color: rgb(1, 1, 1);
+          padding: 10px;
+          text-decoration: none;
+      }
+      li :hover{
+        color: aliceblue;
+        background-color: rgb(199, 46, 46,0.6);
+        border-radius: 20px;
+        
+      }
+    
+    h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+    }
+    
+    h3 {
+    color: #333;
+    }
+    
+    /* Button styling */
+     button {
+    background-color: #de9338;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    }
+    
+    button:hover {
+    background-color: #ff2600;
+    }
+    
+    button:focus {
+    outline: none;
+    }
+    
+    button a {
+    text-decoration: none;
+    color: white;
+    }
+    
+    button a:hover {
+    color: white;
+    }
+    #registration-form h3, #existing-patient-form h3{
+        color: #ffffff;
+    }
+    /* Form styling */
+    #registration-form, #existing-patient-form {
+    width: 50%;
+    background-color: rgb(0,0,0,0.6);
+    color: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+    
+    input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    textarea {
+    resize: vertical;
+    }
+    
+    label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    }
+   
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(247, 245, 245, 0.6);
+    box-shadow: 0 4px 8px rgba(194, 190, 190, 0.1);
+    
+    }
+    
+    th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+    background-color: #ff4e08;
+    color: white;
+    }
+    
+    tr:hover {
+    background-color: #f1f1f1;
+    }
+    
+ 
+    #appointment-details_new, #appointment-details_existing {
+    margin-top: 15px;
+    }
+    
+    select, input[type="text"] {
+    width: auto;
+    display: inline-block;
+    }
+    
+  
+    @media (max-width: 768px) {
+    body {
+    padding: 15px;
+    }
+    
+    button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    }
+    
+    input, select, textarea {
+    font-size: 14px;
+    }
+    
+    table {
+    font-size: 14px;
+    }
+    }
+    
+    #registration-form, #existing-patient-form {
+    display: none;
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+    th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    background: url(images/indexbg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    }
+    
+    h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+    }
+    
+    
+    .header-inner {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .logo img {
+    height: 50px;
+    display: flex;
+    display: inline-block;
+    margin: auto;
+    }
+    
+    .main-menu {
+    text-align: center;
+    }
+    
+    .main-menu .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .main-menu .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    }
+    
+    .main-menu .navigation li {
+    position: relative;
+    }
+    
+    .main-menu .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    }
+    
+    .main-menu .navigation a:hover {
+    background-color: #4caf50;
+    }
+
+    .main-menu .dropdown li {
+    display: block;
+    }
+    
+    .main-menu .dropdown a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    }
+    
+    .main-menu .navigation li:hover .dropdown {
+    display: block;
+    }
+    
+    .get-quote .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    }
+    
+    .get-quote .btn:hover {
+    background-color: #45a049;
+    color: white;
+    }
+    
+    @media (max-width: 768px) {
+    .main-menu .navigation {
+    flex-direction: column;
+    }
+    
+    .main-menu .navigation a {
+    display: block;
+    }
+    
+    .get-quote .btn {
+    width: 100%;
+    text-align: center;
+    }
+    }
+      
